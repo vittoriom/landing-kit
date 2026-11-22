@@ -1,0 +1,19 @@
+/* ============================================================
+   {{APP_NAME}} — Brand Accent Overrides
+   Core layout, components, theme tokens & responsive rules come from:
+   https://cdn.jsdelivr.net/gh/vittoriom/landing-kit@v1.2.0/landing-core.css
+   ============================================================ */
+
+:root {
+  --color-primary: #6366f1;
+  --color-primary-dark: #4f46e5;
+  --color-primary-light: #818cf8;
+  --color-primary-glow: rgba(99, 102, 241, 0.25);
+}
+
+[data-theme="light"] {
+  --color-primary: #4f46e5;
+  --color-primary-dark: #4338ca;
+  --color-primary-light: #6366f1;
+  --color-primary-glow: rgba(79, 70, 229, 0.16);
+}
